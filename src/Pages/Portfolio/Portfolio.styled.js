@@ -8,7 +8,7 @@ export const Ul = styled.ul`
   justify-content: center;
   margin-top: 15px;
 
-  animation: showOutline 2s ease-in-out 1 forwards; 
+  /* animation: showOutline 2s ease-in-out 1 forwards;  */
 
   @keyframes showOutline {
     from {

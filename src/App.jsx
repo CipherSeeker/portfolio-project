@@ -5,7 +5,7 @@ import { lazy, Suspense } from "react";
 import { Triangle } from "react-loader-spinner";
 
 const NavMenu = lazy(() => import("./components/NavMenu/NavMenu"));
-const Hero = lazy(() => import("./components/Hero/Hero"));
+const Home = lazy(() => import("./Pages/Home/Home"));
 const Portfolio = lazy(() => import("./Pages/Portfolio/Portfolio"));
 const Projects = lazy(() => import("./Pages/Projects/Projects"));
 const Ribbon = lazy(() => import("./components/Ribbon/Ribbon"));
@@ -22,11 +22,11 @@ function App() {
           </css.SpinnerContainer>
         }
       >
-        <css.Nav>
-          <NavMenu />
-        </css.Nav>
+        
+         <NavMenu />
+       
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Portfolio />} />
           <Route path="/projects/:title" element={<Projects />} />
         </Routes>

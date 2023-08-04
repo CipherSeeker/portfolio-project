@@ -56,3 +56,8 @@ export const Logo = styled(BsGithub)`
 export const LogoBlok = styled.div`
   width: 275px;
 `;
+
+export const Nav = styled.nav`
+  margin-bottom: 5px;
+  height: 112px;
+`;

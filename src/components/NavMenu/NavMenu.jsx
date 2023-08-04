@@ -2,6 +2,7 @@ import * as css from "./NavMenu.styled";
 
 const NavMenu = () => {
   return (
+    <css.Nav>
     <css.NavDiv>
       <css.LogoBlok>
         <css.LogoLink to="/">
@@ -13,7 +14,8 @@ const NavMenu = () => {
       <css.ButtonHireDiv>
         <css.ButtonHire type="button">Hire Me</css.ButtonHire>
       </css.ButtonHireDiv>
-    </css.NavDiv>
+      </css.NavDiv>
+    </css.Nav>
   );
 };
 

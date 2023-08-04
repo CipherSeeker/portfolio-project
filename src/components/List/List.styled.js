@@ -19,6 +19,7 @@ export const DivBlock = styled.div`
   width: 100%;
   position: absolute;
   top: 0;
+  padding: 15px;
 
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 5;
@@ -41,6 +42,7 @@ export const DivBlock = styled.div`
 export const Button = styled.button`
   scale: 0;
   transition: scale 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
 `;
 
 export const Li = styled.li`
@@ -110,6 +112,7 @@ export const DivButton = styled.div`
   gap: 5px;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 `;
 
 export const H2 = styled.h2`
@@ -119,8 +122,10 @@ export const H2 = styled.h2`
 
 export const DivBlockButton = styled.div`
   color: #fff;
-  width: 90px;
+  width: 80px;
   height: 90px;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Em = styled.em`

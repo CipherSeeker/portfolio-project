@@ -22,9 +22,9 @@ const Nav = ({ data, onFilter, onShowAll }) => {
           </button>
         );
       })}
-      <button type="button" onClick={onShowAll}>
+      <css.NavButton type="button" onClick={onShowAll}>
         Show All
-      </button>
+      </css.NavButton>
     </css.DivFilter>
   );
 };

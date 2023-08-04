@@ -7,7 +7,7 @@ export const StyledDiv = styled.div`
     & h2 {
         font-size: 2.25rem;
         line-height: 2.5rem;
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 `
 

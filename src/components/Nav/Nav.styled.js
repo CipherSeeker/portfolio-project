@@ -6,3 +6,9 @@ export const DivFilter = styled.div`
   gap: 15px;
   justify-content: center;
 `;
+
+
+export const NavButton = styled.button`
+  font-weight: 700;
+`;
+    

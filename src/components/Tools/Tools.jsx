@@ -4,9 +4,11 @@ import {
   StyledDivIconsContainer,
   StyledFaCss3,
   StyledFaReact,
+  StyledFaWordpressSimple,
   StyledIoLogoJavascript,
   StyledSiStyledcomponents,
   StyledSiVite,
+  StyledTFaPhp,
   StyledTbBrandHtml5,
   StyledTbBrandNextjs,
   StyledTbBrandTailwind,
@@ -22,8 +24,10 @@ const Tools = ({ skills }) => {
     { name: "Javascript", icon: StyledIoLogoJavascript },
     { name: "STYLED", icon: StyledSiStyledcomponents },
     { name: "VITE", icon: StyledSiVite },
-    { name: "TAILWIND", icon: StyledTbBrandTailwind },
+    { name: "Tailwind", icon: StyledTbBrandTailwind },
     { name: "Next.JS", icon: StyledTbBrandNextjs },
+    { name: "WordPress", icon: StyledFaWordpressSimple },
+    { name: "PHP", icon: StyledTFaPhp },
   ];
 
   const projectSkills = availableSkills.filter((skill) =>

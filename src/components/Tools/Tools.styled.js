@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { TbBrandHtml5, TbBrandTailwind } from "react-icons/tb";
-import { FaReact, FaCss3 } from "react-icons/fa";
+import { FaReact, FaCss3, FaWordpressSimple, FaPhp } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiStyledcomponents, SiVite } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -76,6 +76,16 @@ export const StyledSiVite = styled(SiVite)`
 `;
 
 export const StyledTbBrandTailwind = styled(TbBrandTailwind)`
+  width: 60px;
+  height: 60px;
+`;
+
+export const StyledFaWordpressSimple = styled(FaWordpressSimple)`
+  width: 60px;
+  height: 60px;
+`;
+
+export const StyledTFaPhp = styled(FaPhp)`
   width: 60px;
   height: 60px;
 `;

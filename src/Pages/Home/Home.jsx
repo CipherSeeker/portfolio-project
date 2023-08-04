@@ -2,7 +2,7 @@ import * as css from "./Home.styled";
 import developerImg from "../../assets/developer-dark.3f07bd13.svg";
 import projects from "../../bd/bd";
 import List from "../../components/List/List";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Triangle } from "react-loader-spinner";
 import { Link } from "react-router-dom";
 
@@ -25,7 +25,7 @@ const Home = () => {
     <>
       <css.Full>
         <css.Left>
-          <css.Title> HI, CipherSeeker</css.Title>
+          <css.Title>Hi, I am CipherSeeker</css.Title>
           <css.Span>A Full-Stack Developer & Design Enthusiast</css.Span>
         </css.Left>
         <css.Right>

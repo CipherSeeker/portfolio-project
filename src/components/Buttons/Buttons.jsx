@@ -6,19 +6,20 @@ import {
   StyledLinkGit,
   StyledLinkWeb,
 } from "./Buttons.styled";
+import PropTypes from 'prop-types';
 
-const Buttons = () => {
+const Buttons = ({url, urlgit}) => {
   return (
     <>
       <StyledDiv>
         <StyledDivCon>
-          <StyledLinkWeb href="https://runersbiome.com/">
+          <StyledLinkWeb href={`${url}`}>
             <StyledArrow />
             VISIT THE WEBSITE
           </StyledLinkWeb>
         </StyledDivCon>
         <StyledDivCon>
-          <StyledLinkGit href="https://github.com/CipherSeeker">
+          <StyledLinkGit href={`${urlgit}`}>
             <StyledGit />
             GitHub
           </StyledLinkGit>
@@ -26,6 +27,11 @@ const Buttons = () => {
       </StyledDiv>
     </>
   );
+};
+
+Buttons.propTypes = {
+  url: PropTypes.string.isRequired,
+  urlgit: PropTypes.string.isRequired,
 };
 
 export default Buttons;

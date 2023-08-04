@@ -15,7 +15,7 @@ const Projects = () => {
     <>
       <StyledDiv>
         <h2>{project.title}</h2>
-        <Buttons />
+        <Buttons url={project.url} urlgit={project.urlgit}/>
       </StyledDiv>
       <SwiperProject images={project.images} />
       <StyledGrid>

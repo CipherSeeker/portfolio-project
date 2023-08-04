@@ -25,6 +25,8 @@ import photo1 from "../assets/Screenshot_1.png";
       "//into-the-program.com/demo/images/sample009.jpg",
       "//into-the-program.com/demo/images/sample012.jpg",
     ],
+    url: `https://runersbiome.com/`, 
+    urlgit: `https://github.com/CipherSeeker/portfolio-project`,
    },
    {
      id: '2',

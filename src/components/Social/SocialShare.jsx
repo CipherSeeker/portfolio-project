@@ -9,7 +9,7 @@ import {
 } from "./SocialShare.styled";
 
 const SocialShare = () => {
-  const PortfolioUrlPage = "https://example.com";
+  const PortfolioUrlPage = "https://portfolio-project-seven-beta.vercel.app/";
 
   return (
     <>

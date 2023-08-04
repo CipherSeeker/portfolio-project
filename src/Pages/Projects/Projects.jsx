@@ -22,21 +22,11 @@ const Projects = () => {
     <>
       <StyledDiv>
         <h2>{project.title}</h2>
-        <StyledDateTag>
-          <StyledP>
-            <StyledBsClock />
-            Jul 26, 2021
-          </StyledP>
-          <StyledP>
-            <StyledBsTag />
-            UI / Frontend
-          </StyledP>
-        </StyledDateTag>
         <Buttons />
       </StyledDiv>
-      <SwiperProject images={project.images}/>
+      <SwiperProject images={project.images} />
       <StyledGrid>
-        <SideBar skills={project.skill}/>
+        <SideBar skills={project.skill} />
         <About />
       </StyledGrid>
     </>

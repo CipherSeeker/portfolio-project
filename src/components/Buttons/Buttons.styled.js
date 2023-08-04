@@ -3,10 +3,9 @@ import { BsBoxArrowInRight, BsGithub } from "react-icons/bs";
 
 export const StyledDiv = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-align: left;
-  margin-bottom: 60px;
-  margin-top: 60px;
+  gap: 25px;
 `;
 
 export const StyledDivCon = styled.div`

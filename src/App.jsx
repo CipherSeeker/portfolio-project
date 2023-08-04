@@ -2,6 +2,7 @@ import "./App.css";
 import * as css from "./App.styled";
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import { Triangle } from "react-loader-spinner";
 
 const NavMenu = lazy(() => import("./components/NavMenu/NavMenu"));
 const Hero = lazy(() => import("./components/Hero/Hero"));
@@ -12,13 +13,12 @@ const Ribbon = lazy(() => import("./components/Ribbon/Ribbon"));
 function App() {
   // const scrollY = window.scrollY;
   // // console.log("scrollY:", scrollY);
-
   return (
     <>
       <Suspense
         fallback={
           <css.SpinnerContainer>
-            <css.StyledTriangle />
+            <Triangle height="80" width="80" color="#ffffff" />
           </css.SpinnerContainer>
         }
       >

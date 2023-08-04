@@ -4,14 +4,7 @@ import About from "../../components/About/About";
 import SideBar from "../../components/Sidebar/SideBar";
 import SwiperProject from "../../components/Swiper/Swiper";
 import projects from "../../bd/bd";
-import {
-  StyledBsClock,
-  StyledBsTag,
-  StyledDateTag,
-  StyledDiv,
-  StyledGrid,
-  StyledP,
-} from "./Projects.styled";
+import { StyledDiv, StyledGrid } from "./Projects.styled";
 
 const Projects = () => {
   const { title } = useParams();

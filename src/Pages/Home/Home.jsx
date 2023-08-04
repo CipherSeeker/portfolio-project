@@ -9,17 +9,13 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const [showLoader, setShowLoader] = useState(true);
 
-
   useEffect(() => {
-     const timer = setTimeout(() => {
+    const timer = setTimeout(() => {
       setShowLoader(false);
     }, 500);
 
     return () => clearTimeout(timer);
   }, []);
-
-
-
 
   return (
     <>
@@ -34,7 +30,7 @@ const Home = () => {
       </css.Full>
 
       <css.H1>Projects portfolio</css.H1>
-      
+
       {showLoader ? (
         <css.DivSpinner>
           <Triangle
@@ -49,22 +45,16 @@ const Home = () => {
         </css.DivSpinner>
       ) : (
         <css.Ul>
-            <List data={projects.slice(0, 4)} />
+          <List data={projects.slice(0, 4)} />
         </css.Ul>
       )}
-
 
       <Link to={"/projects"}>
         <css.ButtonDiv>
           <css.Button type="button">More Projects</css.Button>
         </css.ButtonDiv>
-    </Link>
+      </Link>
     </>
-   
-
-
-    
-    
   );
 };
 

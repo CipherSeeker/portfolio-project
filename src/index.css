@@ -186,10 +186,19 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   color: rgba(255, 255, 255, 0.87);
+  transition: color 250ms ease-in-out, border-color 250ms ease-in-out;
 }
 button:hover {
   border-color: #4f46e5;
+  color: #646cff;
+  transition: color 250ms ease-in-out, border-color 250ms ease-in-out;
 }
+
+button:hover svg {
+  color: #646cff;
+  transition: color 250ms ease-in-out, border-color 250ms ease-in-out;
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

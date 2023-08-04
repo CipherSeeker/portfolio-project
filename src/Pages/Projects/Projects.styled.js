@@ -27,18 +27,6 @@ export const StyledDateTag = styled.div`
   margin-top: 20px;
 `;
 
-export const StyledBsClock = styled(BsClock)`
-  margin-right: 10px;
-  width: 18px;
-  height: 18px;
-`;
-
-export const StyledBsTag = styled(BsTag)`
-  margin-right: 8px;
-  width: 18px;
-  height: 18px;
-`;
-
 export const StyledP = styled.p`
   display: flex;
   align-items: center;

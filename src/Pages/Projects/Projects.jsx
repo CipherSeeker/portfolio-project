@@ -20,7 +20,7 @@ const Projects = () => {
       <SwiperProject images={project.images} />
       <StyledGrid>
         <SideBar skills={project.skill} />
-        <About />
+        <About about={project.about}/>
       </StyledGrid>
     </>
   );

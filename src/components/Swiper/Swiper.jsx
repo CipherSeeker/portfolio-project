@@ -3,19 +3,9 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import PropTypes from "prop-types";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "./Swiper.css";
 
 const SwiperProject = ({ images }) => {
-  // const images = [
-  //   "//into-the-program.com/demo/images/sample010.jpg",
-  //   "//into-the-program.com/demo/images/sample005.jpg",
-  //   "//into-the-program.com/demo/images/sample012.jpg",
-  //   "//into-the-program.com/demo/images/sample007.jpg",
-  //   "//into-the-program.com/demo/images/sample008.jpg",
-  //   "//into-the-program.com/demo/images/sample009.jpg",
-  //   "//into-the-program.com/demo/images/sample012.jpg",
-  // ];
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}

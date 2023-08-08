@@ -6,6 +6,7 @@ import rb3 from "../assets/img/RunnersBiome/Hero.avif";
 import rb4 from "../assets/img/RunnersBiome/Posts.avif";
 import rb5 from "../assets/img/RunnersBiome/RecentlyPosted.avif";
 import rb6 from "../assets/img/RunnersBiome/Search.avif";
+import rb7 from "../assets/img/RunnersBiome/Score.avif";
 import lv1 from "../assets/img/LittleVoices/Author.avif";
 import lv2 from "../assets/img/LittleVoices/Home.avif";
 import lv3 from "../assets/img/LittleVoices/Post-Full.avif";
@@ -13,6 +14,7 @@ import lv4 from "../assets/img/LittleVoices/Post-Full-2.avif";
 import lv5 from "../assets/img/LittleVoices/Post.avif";
 import lv6 from "../assets/img/LittleVoices/Search.avif";
 import lv7 from "../assets/img/LittleVoices/Trending.avif";
+import lv8 from "../assets/img/LittleVoices/ScoreLV.avif";
 
 export default [
   {
@@ -21,7 +23,7 @@ export default [
     title: "Runners Biome",
     skill: ["WordPress", "JavaScript", "HTML", "CSS", "Tailwind", "PHP"],
     cms: "WordPress",
-    images: [rb1, rb2, rb3, rb4, rb5, rb6],
+    images: [rb1, rb2, rb3, rb4, rb5, rb6, rb7],
     url: `https://runersbiome.com/`,
     urlgit: `https://github.com/CipherSeeker/portfolio-project`,
   },
@@ -31,7 +33,7 @@ export default [
     title: "Little Voices",
     skill: ["WordPress", "HTML", "CSS", "JavaScript", "PHP"],
     cms: "WordPress",
-    images: [lv1, lv2, lv3, lv4, lv5, lv6, lv7],
+    images: [lv1, lv2, lv3, lv4, lv5, lv6, lv7, lv8],
     url: "https://littlevoices.site/",
     urlgit: "",
   },

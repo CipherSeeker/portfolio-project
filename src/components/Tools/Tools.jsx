@@ -21,7 +21,7 @@ const Tools = ({ skills }) => {
     { name: "HTML", icon: StyledTbBrandHtml5 },
     { name: "React", icon: StyledFaReact },
     { name: "CSS", icon: StyledFaCss3 },
-    { name: "Javascript", icon: StyledIoLogoJavascript },
+    { name: "JavaScript", icon: StyledIoLogoJavascript },
     { name: "STYLED", icon: StyledSiStyledcomponents },
     { name: "VITE", icon: StyledSiVite },
     { name: "Tailwind", icon: StyledTbBrandTailwind },

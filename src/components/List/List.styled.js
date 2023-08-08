@@ -109,7 +109,7 @@ export const Li = styled.li`
 export const DivButton = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   padding: 15px;
@@ -122,10 +122,11 @@ export const H2 = styled.h2`
 
 export const DivBlockButton = styled.div`
   color: #fff;
-  width: 80px;
+  width: 90px;
   height: 90px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 `;
 
 export const Em = styled.em`

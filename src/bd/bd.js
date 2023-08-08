@@ -35,7 +35,7 @@ export default [
     cms: "WordPress",
     images: [lv1, lv2, lv3, lv4, lv5, lv6, lv7, lv8],
     url: "https://littlevoices.site/",
-    urlgit: "",
+    urlgit: "https://github.com/CipherSeeker/Little-Voices",
   },
   {
     id: "3",

@@ -26,12 +26,13 @@ export const StyledAnchor = styled.a`
   height: 80px;
   background-color: #1e3851;
   border-radius: 8px;
+  color: white;
   transform: translateX(0);
   transition: transform 250ms ease-in-out, background-color 250ms ease-in-out, color 250ms ease-in-out;
   &:hover {
     transform: translateY(15px);
     background-color: #1e3851;
-    color: white;
+    color: #646cff;
   }
 `;
 

@@ -36,47 +36,66 @@ export default [
     about: (
       <>
         <p>
-          Welcome to the "Runers Biome" – a project that holds a special place
-          in my developers portfolio. As a passionate developer with a love for
-          both coding and fitness, I embarked on creating this web platform to
-          bring together a community of running enthusiasts from around the
-          world. This project is a testament to my dedication to combining my
-          technical skills with my personal interests.
+          Introducing "runersbiome.com," an engaging information-centric website
+          and blog that underscores my proficiency as a Full Stack Developer.
+          This project harmoniously combines WordPress, HTML, PHP, CSS, Tailwind
+          CSS, and JavaScript to create a dynamic platform packed with valuable
+          features.
         </p>
+
+        <h3>Technical Details:</h3>
+
+        <h4> - Custom WordPress Theme:</h4>
         <p>
-          The Running Enthusiast Hub is not just another website; it's a dynamic
-          space where runners of all levels can find inspiration, valuable
-          resources, and connect with like-minded individuals. From beginners
-          taking their first strides to seasoned marathoners chasing personal
-          bests, this platform is designed to cater to every runner's needs. The
-          website features a user-friendly interface, allowing members to access
-          training plans, nutrition tips, injury prevention strategies, and a
-          collection of motivational stories shared by fellow runners.
+          The marriage of HTML with WordPress functionality results in a custom
+          theme that amalgamates design aesthetics with dynamic content
+          management.
         </p>
+        <h4> - MailPoet Integration:</h4>
         <p>
-          One of the highlights of this project is the interactive route mapping
-          feature, powered by cutting-edge technology, enabling users to
-          discover new running routes in their local areas or when traveling.
-          Additionally, a community forum fosters engaging discussions on
-          training techniques, gear reviews, and upcoming running events,
-          creating a sense of camaraderie among users who share a common
-          passion.
+          Leveraging the MailPoet plugin, subscribers receive automated
+          notifications about new posts, fostering a strong user-community
+          connection.
         </p>
+        <h4> - Interactive WPForms:</h4>
         <p>
-          As a developer, I embraced the challenge of blending aesthetics with
-          functionality. The Running Enthusiast Hub boasts a responsive design
-          that ensures seamless user experience across various devices. From
-          coding the back-end for data management to crafting captivating
-          front-end visuals, every aspect of this project reflects my commitment
-          to detail and excellence.
+          The implementation of interactive contact forms through WPForms
+          facilitates user engagement, feedback, and inquiries, thus enhancing
+          communication.
         </p>
+        <h4> - Instagram Feeds via Spotlight:</h4>
         <p>
-          I invite you to explore the Running Enthusiast Hub and witness the
-          harmony of technology and running fervor. This project not only
-          showcases my technical prowess but also embodies my dedication to
-          creating digital spaces that cater to the diverse interests of
-          individuals worldwide. Thank you for joining me on this exhilarating
-          journey of code and miles.
+          Through the Spotlight plugin, Instagram feeds are seamlessly
+          incorporated, introducing dynamic visual content to boost user
+          engagement.
+        </p>
+        <h4> - Sassy Social Share Integration:</h4>
+        <p>
+          The integration of Sassy Social Share seamlessly introduces visually
+          appealing icons for easy content sharing across diverse social media
+          platforms.
+        </p>
+        <h4> - Advanced Search Functionality:</h4>
+        <p>
+          The project boasts a sophisticated search feature that allows users to
+          search for articles using keywords or letters, enhancing the user
+          experience by providing relevant content quickly.
+        </p>
+        <h4> - Tag-Based Filtering:</h4>
+        <p>
+          The organization of content through tags simplifies navigation,
+          allowing users to explore posts aligned with their interests.
+        </p>
+        <h4> - Structured Post Categories:</h4>
+        <p>
+          Posts are structured into categories, ensuring that visitors can
+          effortlessly find content that aligns with their preferences.
+        </p>
+        <h4> - Author Profiles:</h4>
+        <p>
+          The integration of author profiles grants users insights into
+          contributors. These profiles encompass concise biographies and
+          comprehensive lists of their authored posts.
         </p>
       </>
     ),

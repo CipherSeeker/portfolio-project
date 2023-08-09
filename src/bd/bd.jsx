@@ -223,7 +223,7 @@ export default [
     title: "Simply Chocolate",
     skill: ["HTML", "CSS", "JavaScript", "Vite"],
     cms: "150",
-    images: [sc1, sc2, sc3, sc4, sc5, sc6, sc7],
+    images: [sc1, sc2, sc3, sc5, sc6, sc7],
     url: "https://cipherseeker.github.io/Sweet-Chest/",
     urlgit: "https://github.com/CipherSeeker/Sweet-Chest",
   },

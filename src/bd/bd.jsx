@@ -18,7 +18,7 @@ import lv8 from "../assets/img/LittleVoices/ScoreLV.avif";
 import sc1 from "../assets/img/SweetChest/Hero.avif";
 import sc2 from "../assets/img/SweetChest/Section.avif";
 import sc3 from "../assets/img/SweetChest/Section-2.avif";
-// import sc4 from "../assets/img/SweetChest/Section-3.avif";
+import sc4 from "../assets/img/SweetChest/Section-3.avif";
 import sc5 from "../assets/img/SweetChest/Section-4.avif";
 import sc6 from "../assets/img/SweetChest/Section-5.avif";
 import sc7 from "../assets/img/SweetChest/Footer.avif";
@@ -169,7 +169,7 @@ export default [
     title: "Sweet Chest",
     skill: ["JavaScript", "HTML", "CSS", "Parcel"],
     cms: "WordPress",
-    images: [sc1, sc2, sc3, sc5, sc6, sc7],
+    images: [sc1, sc2, sc3, sc4, sc5, sc6, sc7],
     url: "https://cipherseeker.github.io/Sweet-Chest/",
     urlgit: "https://github.com/CipherSeeker/Sweet-Chest",
     about: (
@@ -223,7 +223,7 @@ export default [
     title: "Simply Chocolate",
     skill: ["HTML", "CSS", "JavaScript", "Vite"],
     cms: "150",
-    images: [sc1, sc2, sc3, sc5, sc6, sc7],
+    images: [sc1, sc2, sc3, sc4, sc5, sc6, sc7],
     url: "https://cipherseeker.github.io/Sweet-Chest/",
     urlgit: "https://github.com/CipherSeeker/Sweet-Chest",
   },

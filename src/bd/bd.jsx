@@ -1,5 +1,6 @@
 import photo2 from "../assets/Screenshot_2.png";
 import photo1 from "../assets/Screenshot_1.png";
+
 import rb1 from "../assets/img/RunnersBiome/Author.avif";
 import rb2 from "../assets/img/RunnersBiome/ContactUs.avif";
 import rb3 from "../assets/img/RunnersBiome/Hero.avif";
@@ -7,14 +8,15 @@ import rb4 from "../assets/img/RunnersBiome/Posts.avif";
 import rb5 from "../assets/img/RunnersBiome/RecentlyPosted.avif";
 import rb6 from "../assets/img/RunnersBiome/Search.avif";
 import rb7 from "../assets/img/RunnersBiome/Score.avif";
+
 import lv1 from "../assets/img/LittleVoices/Author.avif";
 import lv2 from "../assets/img/LittleVoices/Home.avif";
 import lv3 from "../assets/img/LittleVoices/Post-Full.avif";
-
 import lv5 from "../assets/img/LittleVoices/Post.avif";
 import lv6 from "../assets/img/LittleVoices/Search.avif";
 import lv7 from "../assets/img/LittleVoices/Trending.avif";
 import lv8 from "../assets/img/LittleVoices/ScoreLV.avif";
+
 import sc1 from "../assets/img/SweetChest/Hero.avif";
 import sc2 from "../assets/img/SweetChest/Section.avif";
 import sc3 from "../assets/img/SweetChest/Section-2.avif";
@@ -22,6 +24,14 @@ import sc4 from "../assets/img/SweetChest/Section-3.avif";
 import sc5 from "../assets/img/SweetChest/Section-4.avif";
 import sc6 from "../assets/img/SweetChest/Section-5.avif";
 import sc7 from "../assets/img/SweetChest/Footer.avif";
+
+import scl1 from "../assets/img/SimplyChocolate/Hero.avif";
+import scl2 from "../assets/img/SimplyChocolate/Section.avif";
+import scl3 from "../assets/img/SimplyChocolate/Section-2.avif";
+import scl4 from "../assets/img/SimplyChocolate/Buy-now.avif";
+import scl5 from "../assets/img/SimplyChocolate/Review.avif";
+import scl6 from "../assets/img/SimplyChocolate/Subscribe.avif";
+import scl7 from "../assets/img/SimplyChocolate/Footer.avif";
 
 export default [
   {
@@ -219,13 +229,51 @@ export default [
   },
   {
     id: "4",
-    img: `${photo2}`,
+    img: `${scl1}`,
     title: "Simply Chocolate",
     skill: ["HTML", "CSS", "JavaScript", "Vite"],
     cms: "150",
-    images: [sc1, sc2, sc3, sc4, sc5, sc6, sc7],
-    url: "https://cipherseeker.github.io/Sweet-Chest/",
-    urlgit: "https://github.com/CipherSeeker/Sweet-Chest",
+    images: [scl1, scl2, scl3, scl4, scl5, scl6, scl7],
+    url: "https://cipherseeker.github.io/simply-chocolate/",
+    urlgit: "https://github.com/CipherSeeker/simply-chocolate",
+    about: (
+      <>
+        <p>
+          Introducing "Simply Chocolate," an exquisite landing-page project that
+          serves as a testament to my skills as a Full Stack Developer. This
+          captivating platform is dedicated to a chocolate shop, offering a
+          delectable assortment of chocolate products.
+        </p>
+
+        <h3>Technical Aspects:</h3>
+
+        <h4> - Technology Stack:</h4>
+        <p>
+          The project is meticulously developed using Vite as the build tool,
+          HTML for structure, CSS for styling, and JavaScript for interactivity.
+        </p>
+        <h4> - Swiper JS Slider:</h4>
+        <p>
+          The integration of Swiper JS powers two immersive sliders – one
+          displaying product photos and the other showcasing customer
+          testimonials – enhancing visual appeal and user engagement.
+        </p>
+        <h4> - Modal Windows:</h4>
+        <p>
+          Purchase Form - Facilitates secure purchases with fields for personal
+          information, email, phone number, card details, and order comments.
+          Leave a Review - Enables users to share their experiences by entering
+          their name, phone number, and review text. Subscription Form - Allows
+          users to subscribe by entering their email address.
+        </p>
+
+        <h4> - Mobile-First Design:</h4>
+        <p>
+          The landing-page is thoughtfully designed following the Mobile First
+          principle, ensuring optimal user experience on various devices.
+        </p>
+      </>
+    ),
   },
   {
     id: "5",

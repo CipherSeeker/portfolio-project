@@ -1,4 +1,5 @@
 import {
+  StyledBsFillBoxSeamFill,
   StyledContainer,
   StyledDivIcons,
   StyledDivIconsContainer,
@@ -28,6 +29,7 @@ const Tools = ({ skills }) => {
     { name: "Next.JS", icon: StyledTbBrandNextjs },
     { name: "WordPress", icon: StyledFaWordpressSimple },
     { name: "PHP", icon: StyledTFaPhp },
+    { name: "Parcel", icon: StyledBsFillBoxSeamFill },
   ];
 
   const projectSkills = availableSkills.filter((skill) =>

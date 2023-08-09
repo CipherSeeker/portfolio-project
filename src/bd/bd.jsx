@@ -36,7 +36,7 @@ export default [
     about: (
       <>
         <p>
-          Introducing "runersbiome.com," an engaging information-centric website
+          Introducing "runersbiome.com" an engaging information-centric website
           and blog that underscores my proficiency as a Full Stack Developer.
           This project harmoniously combines WordPress, HTML, PHP, CSS, Tailwind
           CSS, and JavaScript to create a dynamic platform packed with valuable
@@ -112,46 +112,53 @@ export default [
     about: (
       <>
         <p>
-          Welcome to the "Little Voices" – a project that holds a special place
-          in my developer's portfolio. As a dedicated developer with a passion
-          for creating impactful digital solutions, I embarked on this endeavor
-          to provide a comprehensive online platform for individuals navigating
-          the beautiful journey of pregnancy. This project stands as a testament
-          to my commitment to merging technical expertise with my desire to make
-          a positive difference in people's lives.
+          Introducing "littlevoices.site" a dynamic information website and blog
+          that stands as a testament to advanced Full Stack Development
+          capabilities. This project seamlessly integrates WordPress, HTML, CSS,
+          PHP, and JavaScript to create an engaging and feature-rich online
+          platform.
         </p>
+
+        <h3>Technical Aspects:</h3>
+
+        <h4> - Custom WordPress Integration:</h4>
         <p>
-          The Little Voices Blog ranscends the realm of ordinary blogs; it
-          serves as a dynamic haven customized to aid individuals at every phase
-          of pregnancy. From the early stages of family planning to the
-          multifaceted trimesters of pregnancy, this platform is meticulously
-          designed to be a steadfast companion throughout this transformative
-          voyage. The user-friendly interface serves as a gateway to a plethora
-          of resources: prenatal care guidance, expert-authored articles,
-          nutritional wisdom, and personal stories shared by fellow travelers.
+          WordPress harmoniously interacts with HTML, ensuring a unified design
+          while enabling dynamic content management.
         </p>
+        <h4> - MailPoet Subscription: </h4>
         <p>
-          A standout aspect of this project is the interactive community
-          engagement, fostering meaningful conversations that empower users to
-          connect, share their experiences, and seek wisdom from those who
-          comprehend the intricacies of this life-altering journey.
+          Leveraging the MailPoet plugin, the website effortlessly manages
+          subscriptions, automatically notifying subscribers about new posts to
+          enhance user engagement.
         </p>
+        <h4> - Interactive WPForms:</h4>
         <p>
-          As a developer, I embraced the challenge of designing for empathy and
-          inclusivity. The Pregnancy Journey Portal boasts a user-centric
-          design, ensuring seamless navigation and accessibility across diverse
-          devices. From crafting an efficient backend for data management to
-          creating engaging front-end features, every facet of this project
-          embodies my dedication to delivering excellence.
+          Interactive contact forms, powered by WPForms, establish effective
+          communication channels with users, fostering seamless interaction.
         </p>
+
+        <h4> - Sassy Social Share Integration:</h4>
         <p>
-          I invite you to immerse yourself in the Pregnancy Insights Blog and
-          witness the seamless fusion of technology and the profound expedition
-          of pregnancy. This project is a testament not only to my technical
-          prowess but also to my commitment to creating digital solutions that
-          cater to the diverse needs of individuals worldwide. Thank you for
-          joining me on this meaningful journey, where code and the miracle of
-          life converge in exquisite harmony.
+          The incorporation of Sassy Social Share generates visually appealing
+          icons for effortless content sharing across diverse social media
+          platforms.
+        </p>
+        <h4> - Advanced Search Functionality:</h4>
+        <p>
+          Advanced search functionality empowers users to efficiently locate
+          articles using keywords or specific letters.
+        </p>
+
+        <h4> - Structured Content Categories:</h4>
+        <p>
+          The project thoughtfully organizes articles into distinct categories,
+          ensuring easy access to content tailored to individual preferences.
+        </p>
+        <h4> - Author Profiles:</h4>
+        <p>
+          Interactive author profiles provide insights into contributors. Users
+          can explore author biographies and access lists of authored posts.
         </p>
       </>
     ),
@@ -160,7 +167,7 @@ export default [
     id: "3",
     img: `${sc1}`,
     title: "Sweet Chest",
-    skill: ["JavaScript", "HTML", "CSS"],
+    skill: ["JavaScript", "HTML", "CSS", "Parcel"],
     cms: "WordPress",
     images: [sc1, sc2, sc3, sc4, sc5, sc6, sc7],
     url: "https://cipherseeker.github.io/Sweet-Chest/",
@@ -168,57 +175,44 @@ export default [
     about: (
       <>
         <p>
-          Welcome to the "Sweet Chest" – a standout gem in my developer's
-          portfolio. As an avid developer, I've taken on the task of crafting a
-          captivating online platform dedicated to the art of selling delectable
-          pastries. This project showcases my ability to seamlessly weave
-          technical finesse with a scrumptious objective – providing a virtual
-          haven for those seeking to indulge in the world of exquisite cakes and
-          cupcakes.
+          Introducing "Sweet Chest," an enchanting landing-page project that
+          underscores my prowess as a Full Stack Developer. This captivating
+          platform is dedicated to a bakery, specializing in the sale of
+          delectable cupcakes and pastries.
         </p>
+
+        <h3>Technical Aspects:</h3>
+
+        <h4> - Technology Stack:</h4>
         <p>
-          The Sweet Chest is more than just a website; it's a dynamic digital
-          confectionery that caters to both the connoisseurs of baked goods and
-          the casual dessert enthusiasts. From those in search of the perfect
-          treat for special occasions to individuals simply craving a sweet
-          escape, this platform is designed to be a delightful online
-          destination that leaves taste buds tingling. The user-friendly
-          interface opens doors to a tantalizing array of offerings: sumptuous
-          cakes adorned with intricate designs, delectable cupcakes bursting
-          with flavor, and a gallery that showcases the edible artistry crafted
-          in our bakery.
+          The project is meticulously crafted using Parcel as the bundler, HTML
+          for structuring content, CSS for styling, and JavaScript for dynamic
+          functionality.
         </p>
+        <h4> - Swiper JS Slider:</h4>
         <p>
-          A standout aspect of this project is the interactive community
-          engagement, fostering meaningful conversations that empower users to
-          connect, share their experiences, and seek wisdom from those who
-          comprehend the intricacies of this life-altering journey.
+          The integration of Swiper JS powers an engaging slider that showcases
+          product photos and customer testimonials, enhancing visual appeal and
+          user engagement.
         </p>
+        <h4> - SmoothScroll and SimpleLightbox Libraries:</h4>
         <p>
-          A highlight of this project is the seamless online shopping
-          experience, where customers can effortlessly select their desired
-          treats, customize orders, and have their delightful indulgences
-          delivered to their doorstep. From choosing flavors to personalizing
-          decorations, this platform enhances the process of acquiring these
-          edible masterpieces.
+          he use of SmoothScroll provides seamless navigation, while
+          SimpleLightbox enriches user experience through elegant image lightbox
+          functionality.
         </p>
+
+        <h4> - Axios Integration:</h4>
         <p>
-          As a developer, I embraced the challenge of fusing aesthetics with
-          functionality. The Sweet Delights Bakery website boasts an interface
-          that's as visually appetizing as the treats it offers, ensuring
-          seamless navigation and accessibility across diverse devices. From
-          optimizing the backend for streamlined order processing to creating a
-          visually enticing frontend, every element of this project mirrors my
-          unwavering commitment to delivering excellence.
+          Leveraging the Axios library, the project seamlessly fetches and
+          displays external content, contributing to a dynamic and engaging user
+          interface.
         </p>
+        <h4> - Form Integration and Telegram Bot:</h4>
         <p>
-          I invite you to explore the Sweet Delights Bakery and experience the
-          delightful synergy of technology and the art of baking. This project
-          not only demonstrates my technical prowess but also reflects my
-          dedication to crafting digital solutions that cater to the diverse
-          desires of individuals across the globe. Thank you for joining me on
-          this delightful journey, where code meets the sweetness of life's
-          pleasures.
+          A user-friendly form enables visitors to place orders by entering
+          their phone number. The integrated Telegram bot facilitates order
+          notifications, ensuring efficient communication and order processing.
         </p>
       </>
     ),

@@ -4,9 +4,9 @@ import { FaReact, FaCss3, FaWordpressSimple, FaPhp } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiStyledcomponents, SiVite } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { BsFillBoxSeamFill } from "react-icons/bs";
 
 const skillIcons = {
-  "Next.JS": TbBrandHtml5,
   React: FaReact,
   HTML: TbBrandHtml5,
   CSS: FaCss3,
@@ -15,8 +15,9 @@ const skillIcons = {
   Vite: SiVite,
   Tailwind: TbBrandTailwind,
   "Next.JS": TbBrandNextjs,
-  "WordPress": FaWordpressSimple,
-  "PHP": FaPhp,
+  WordPress: FaWordpressSimple,
+  PHP: FaPhp,
+  Parcel: BsFillBoxSeamFill,
 };
 
 const StyledIcons = {};

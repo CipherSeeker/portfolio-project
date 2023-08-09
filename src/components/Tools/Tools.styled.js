@@ -4,6 +4,7 @@ import { FaReact, FaCss3, FaWordpressSimple, FaPhp } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiStyledcomponents, SiVite } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { BsFillBoxSeamFill } from "react-icons/bs";
 
 export const Styledh2 = styled.h2`
   text-align: initial;
@@ -91,6 +92,11 @@ export const StyledTFaPhp = styled(FaPhp)`
 `;
 
 export const StyledTbBrandNextjs = styled(TbBrandNextjs)`
+  width: 60px;
+  height: 60px;
+`;
+
+export const StyledBsFillBoxSeamFill = styled(BsFillBoxSeamFill)`
   width: 60px;
   height: 60px;
 `;

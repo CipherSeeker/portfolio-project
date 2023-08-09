@@ -10,7 +10,7 @@ import rb7 from "../assets/img/RunnersBiome/Score.avif";
 import lv1 from "../assets/img/LittleVoices/Author.avif";
 import lv2 from "../assets/img/LittleVoices/Home.avif";
 import lv3 from "../assets/img/LittleVoices/Post-Full.avif";
-import lv4 from "../assets/img/LittleVoices/Post-Full-2.avif";
+
 import lv5 from "../assets/img/LittleVoices/Post.avif";
 import lv6 from "../assets/img/LittleVoices/Search.avif";
 import lv7 from "../assets/img/LittleVoices/Trending.avif";
@@ -18,7 +18,7 @@ import lv8 from "../assets/img/LittleVoices/ScoreLV.avif";
 import sc1 from "../assets/img/SweetChest/Hero.avif";
 import sc2 from "../assets/img/SweetChest/Section.avif";
 import sc3 from "../assets/img/SweetChest/Section-2.avif";
-import sc4 from "../assets/img/SweetChest/Section-3.avif";
+// import sc4 from "../assets/img/SweetChest/Section-3.avif";
 import sc5 from "../assets/img/SweetChest/Section-4.avif";
 import sc6 from "../assets/img/SweetChest/Section-5.avif";
 import sc7 from "../assets/img/SweetChest/Footer.avif";
@@ -106,7 +106,7 @@ export default [
     title: "Little Voices",
     skill: ["WordPress", "HTML", "CSS", "JavaScript", "PHP"],
     cms: "WordPress",
-    images: [lv1, lv2, lv3, lv4, lv5, lv6, lv7, lv8],
+    images: [lv1, lv2, lv3, lv5, lv6, lv7, lv8],
     url: "https://littlevoices.site/",
     urlgit: "https://github.com/CipherSeeker/Little-Voices",
     about: (

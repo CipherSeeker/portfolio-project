@@ -8,7 +8,7 @@ export const Div = styled.div`
   top: 0;
   width: 200px;
   height: 200px;
-  z-index: 9000;
+  z-index: 1;
 `;
 
 export const LinkGit = styled(Link)`
@@ -17,7 +17,7 @@ export const LinkGit = styled(Link)`
   width: 220%;
   left: -35%;
   top: -20%;
-  z-index: 901;
+  z-index: 1;
   cursor: pointer;
   background-color: #6366f1;
   color: #1a1a1a;

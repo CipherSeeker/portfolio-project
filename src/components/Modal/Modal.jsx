@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { StyledBtnClose, StyledCloseIcon, StyledDivContent, StyledDivOverlay } from "./Modal.styled";
+import { StyledDivContent, StyledDivOverlay } from "./Modal.styled";
 
 const Modal = ({ isOpen, onClose, children }) => {
 
@@ -48,10 +48,7 @@ const Modal = ({ isOpen, onClose, children }) => {
   return (
     <StyledDivOverlay>
       <StyledDivContent ref={modalRef}>
-        <StyledBtnClose onClick={onClose}>
-          <StyledCloseIcon />
-        </StyledBtnClose>
-        {children}
+                {children}
       </StyledDivContent>
     </StyledDivOverlay>
   );

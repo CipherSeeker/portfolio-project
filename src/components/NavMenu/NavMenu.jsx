@@ -2,6 +2,7 @@ import { useState } from "react";
 import Logo from "../Logo/Logo";
 import * as css from "./NavMenu.styled";
 import Modal from "../Modal/Modal";
+import FormHead from "../FormHead/FormHead";
 
 const NavMenu = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -22,8 +23,7 @@ const NavMenu = () => {
         <css.ButtonHireDiv>
           <css.ButtonHire type="button" onClick={openModal}>Hire Me</css.ButtonHire>
           <Modal isOpen={modalOpen} onClose={closeModal}>
-            <h2>Modal Content</h2>
-            <p>This is the content of the modal.</p>
+            <FormHead onClose={closeModal} />
           </Modal>
         </css.ButtonHireDiv>
       </css.NavDiv>

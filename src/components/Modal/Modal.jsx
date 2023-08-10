@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { StyledBtnClose, StyledCloseIcon, StyledDivContent, StyledDivOverlay } from "./Modal.styled";
+import { StyledDivContent, StyledDivOverlay } from "./Modal.styled";
 
 const Modal = ({ isOpen, onClose, children }) => {
   const modalRef = useRef();

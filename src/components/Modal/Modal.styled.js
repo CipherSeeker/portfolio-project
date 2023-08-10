@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { AiOutlineClose } from "react-icons/ai";
 
 export const StyledDivOverlay = styled.div`
   position: fixed;
@@ -22,11 +23,15 @@ export const StyledDivContent = styled.div`
 `;
 
 export const StyledBtnClose = styled.button`
- /* position: absolute; */
-  top: 10px;
-  right: 10px;
   background: none;
   border: none;
   font-size: 24px;
   cursor: pointer;
+  padding: 0;
+  margin-bottom: 20px;
+`;
+
+export const StyledCloseIcon = styled(AiOutlineClose)`
+  width: 20px;
+  height: 20px;
 `;

@@ -33,6 +33,14 @@ import scl5 from "../assets/img/SimplyChocolate/Review.avif";
 import scl6 from "../assets/img/SimplyChocolate/Subscribe.avif";
 import scl7 from "../assets/img/SimplyChocolate/Footer.avif";
 
+import rm1 from "../assets/img/RickAndMorty/Hero.avif";
+import rm2 from "../assets/img/RickAndMorty/Section.avif";
+import rm3 from "../assets/img/RickAndMorty/Section-2.avif";
+import rm4 from "../assets/img/RickAndMorty/Episodes.avif";
+import rm5 from "../assets/img/RickAndMorty/Characters.avif";
+import rm6 from "../assets/img/RickAndMorty/Hero-modal.avif";
+
+
 export default [
   {
     id: "1",
@@ -277,19 +285,65 @@ export default [
   },
   {
     id: "5",
-    img: `${photo1}`,
-    title: "Project 5",
-    skill: [
-      "JavaScript",
-      "React",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "HTML",
-      "CSS",
-    ],
-    cms: "150",
+    img: `${rm1}`,
+    title: "Rick and Morty",
+    skill: ["JavaScript", "HTML", "CSS", "Vite"],
+    cms: "Vite",
+    images: [rm1, rm2, rm3, rm4, rm5, rm6],
+    url: "https://cipherseeker.github.io/rickandmorty/",
+    urlgit: "https://github.com/CipherSeeker/rickandmorty",
+    about: (
+      <>
+        <p>
+          Introducing the "Rick and Morty" project, a testament to my expertise
+          as a Full Stack Developer. This dynamic platform serves as an
+          interactive hub for exploring the popular animated series "Rick and
+          Morty," offering fans a comprehensive experience to dive into the
+          show's universe.
+        </p>
+
+        <h3>Technical Aspects:</h3>
+
+        <h4> - Technology Stack:</h4>
+        <p>
+          The project is meticulously developed using Vite for build
+          optimization, HTML for structure, CSS for styling, and JavaScript for
+          dynamic functionality.
+        </p>
+        <h4> - Swiper JS Slider:</h4>
+        <p>
+          Swiper JS is seamlessly integrated to create an engaging slider
+          featuring random images from various show episodes.
+        </p>
+        <h4> - Modal Windows:</h4>
+        <p>
+          The project includes two modal windows. The first opens upon clicking
+          a character's name, revealing a concise character profile. The second
+          displays episode details upon selection.
+        </p>
+
+        <h4> - Mobile-First Design:</h4>
+        <p>
+          The project follows the Mobile First design principle, ensuring
+          seamless user experiences across devices.
+        </p>
+        <h4> - Search Functionality:</h4>
+        <p>
+          The site offers character and episode search functionality, with
+          dedicated filters on each search results page.
+        </p>
+        <h4> - Load More Button:</h4>
+        <p>
+          The "Load more" button on character and episode search pages allows
+          users to fetch additional content in increments.
+        </p>
+        <h4> - API Integration:</h4>
+        <p>
+          Data is fetched from the Rick and Morty API, enriching the platform
+          with accurate information.
+        </p>
+      </>
+    ),
   },
   {
     id: "6",

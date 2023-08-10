@@ -20,7 +20,7 @@ const NavMenu = () => {
         <Logo />
         <css.LinksHeader to="/projects">Projects</css.LinksHeader>
         <css.ButtonHireDiv>
-          <css.ButtonHire type="button" type="button" onClick={openModal}>Hire Me</css.ButtonHire>
+          <css.ButtonHire type="button" onClick={openModal}>Hire Me</css.ButtonHire>
           <Modal isOpen={modalOpen} onClose={closeModal}>
             <h2>Modal Content</h2>
             <p>This is the content of the modal.</p>

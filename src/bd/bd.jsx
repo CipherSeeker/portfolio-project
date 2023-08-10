@@ -185,7 +185,7 @@ export default [
     id: "3",
     img: `${sc1}`,
     title: "Sweet Chest",
-    skill: ["JavaScript", "HTML", "CSS", "Parcel"],
+    skill: ["Parcel", "JavaScript", "HTML", "CSS" ],
     cms: "Parcel",
     images: [sc1, sc2, sc3, sc4, sc5, sc6, sc7],
     url: "https://cipherseeker.github.io/Sweet-Chest/",
@@ -239,7 +239,7 @@ export default [
     id: "4",
     img: `${scl1}`,
     title: "Simply Chocolate",
-    skill: ["HTML", "CSS", "JavaScript", "Vite"],
+    skill: ["Vite", "HTML", "CSS", "JavaScript"],
     cms: "Vite",
     images: [scl1, scl2, scl3, scl4, scl5, scl6, scl7],
     url: "https://cipherseeker.github.io/simply-chocolate/",
@@ -287,7 +287,7 @@ export default [
     id: "5",
     img: `${rm1}`,
     title: "Rick and Morty",
-    skill: ["JavaScript", "HTML", "CSS", "Vite"],
+    skill: ["Vite", "JavaScript", "HTML", "CSS" ],
     cms: "Vite",
     images: [rm1, rm2, rm3, rm4, rm5, rm6],
     url: "https://cipherseeker.github.io/rickandmorty/",
@@ -345,25 +345,5 @@ export default [
       </>
     ),
   },
-  {
-    id: "6",
-    img: `${photo2}`,
-    title: "Project 6",
-    skill: ["Next.JS", "React", "HTML", "CSS"],
-    cms: "150",
-  },
-  {
-    id: "7",
-    img: `${photo2}`,
-    title: "Project 7",
-    skill: ["Next.JS", "React", "HTML", "CSS"],
-    cms: "150",
-  },
-  {
-    id: "8",
-    img: `${photo2}`,
-    title: "Project 8",
-    skill: ["Next.JS", "React", "HTML", "CSS"],
-    cms: "150",
-  },
+
 ];

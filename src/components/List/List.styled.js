@@ -162,11 +162,11 @@ export const SpanEm = styled.span`
   transform-origin: 0 0;
   height: 44px;
   line-height: 47px;
-  transition: background-color 0.2s ease-out 0s,
+  transition: background-color 0.2s ease-out 0s, color 250ms ease-in-out,
     transform 0.7s cubic-bezier(0.7, 0, 0.25, 1) 1s, opacity 0.2s ease-out 1s;
 
   &:hover {
-    /* background-color: #0055a5; */
+    transition: color 250ms ease-in-out;
     background-color: #4f46e5;
     color: #ffffff;
   }

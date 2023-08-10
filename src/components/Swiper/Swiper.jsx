@@ -34,7 +34,7 @@ const SwiperProject = ({ images }) => {
     >
       {images.map((imageUrl, index) => (
         <SwiperSlide key={index}>
-          <img src={imageUrl} alt={`Slide ${index + 1}`} loading="lazy" />
+          <img src={imageUrl} alt={`Slide ${index + 1}`}/>
           <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </SwiperSlide>
       ))}

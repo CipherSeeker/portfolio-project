@@ -70,8 +70,10 @@ export const Button = styled.button`
   background-color: #6366f1;
   color: #1a1a1a;
   font-weight: 600;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
 
   &:hover {
+    transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
     background-color: #4f46e5;
     color: #ffffff;
   }

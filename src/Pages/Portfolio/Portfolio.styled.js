@@ -5,7 +5,7 @@ export const Ul = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 1px;
-  justify-content: center;
+ 
   margin-top: 15px;
 
   /* animation: showOutline 2s ease-in-out 1 forwards;  */

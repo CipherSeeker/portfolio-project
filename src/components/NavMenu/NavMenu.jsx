@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "../Logo/Logo";
 import * as css from "./NavMenu.styled";
 import Modal from "../Modal/Modal";
 
@@ -15,21 +16,12 @@ const NavMenu = () => {
 
   return (
     <css.Nav>
-    <css.NavDiv>
-      <css.LogoBlok>
-        <css.LogoLink to="/">
-          <css.Logo />
-          <css.Span>CipherSeeker</css.Span>
-        </css.LogoLink>
-      </css.LogoBlok>
-      <css.LinksHeader to="/projects">Projects</css.LinksHeader>
-      <css.ButtonHireDiv>
-        <css.ButtonHire type="button" onClick={openModal}>Hire Me</css.ButtonHire>
-        <Modal isOpen={modalOpen} onClose={closeModal}>
-        <h2>Modal Content</h2>
-        <p>This is the content of the modal.</p>
-        </Modal>
-      </css.ButtonHireDiv>
+      <css.NavDiv>
+        <Logo />
+        <css.LinksHeader to="/projects">Projects</css.LinksHeader>
+        <css.ButtonHireDiv>
+          <css.ButtonHire type="button">Hire Me</css.ButtonHire>
+        </css.ButtonHireDiv>
       </css.NavDiv>
     </css.Nav>
   );

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Triangle } from "react-loader-spinner";
 import { Link } from "react-router-dom";
 
+
 const Home = () => {
   const [showLoader, setShowLoader] = useState(true);
 
@@ -54,6 +55,8 @@ const Home = () => {
           <css.Button type="button">More Projects</css.Button>
         </css.ButtonDiv>
       </Link>
+
+     
     </>
   );
 };

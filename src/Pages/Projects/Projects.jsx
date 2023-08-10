@@ -8,8 +8,7 @@ import { StyledDiv, StyledGrid } from "./Projects.styled";
 
 const Projects = () => {
   const { title } = useParams();
-
-  const project = projects.find((project) => project.title === title);
+  const project = projects.find((project) => project.title.toLocaleLowerCase() === title.replace(/-/g, " "));
 
   return (
     <>
@@ -21,6 +20,7 @@ const Projects = () => {
       <StyledGrid>
         <SideBar skills={project.skill} />
         <About about={project.about}/>
+        
       </StyledGrid>
     </>
   );

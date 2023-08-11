@@ -355,7 +355,7 @@ export default [
     id: "5",
     img: `${sm1}`,
     title: "Slim Mom",
-    skill: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+    skill: ["React", "Redux", "JavaScript", "HTML", "CSS", "Styled"],
     cms: "Vite",
     images: [sm1, sm2, sm3, sm4, sm5, sm6],
     url: "https://cipherseeker.github.io/react-health-project/",

@@ -11,7 +11,7 @@ const skillIcons = {
   HTML: TbBrandHtml5,
   CSS: FaCss3,
   JavaScript: IoLogoJavascript,
-  "Styled Components": SiStyledcomponents,
+  "Styled": SiStyledcomponents,
   Vite: SiVite,
   Tailwind: TbBrandTailwind,
   "Next.JS": TbBrandNextjs,

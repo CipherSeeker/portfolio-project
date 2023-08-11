@@ -358,7 +358,7 @@ export default [
     skill: ["React", "Redux", "JavaScript", "HTML", "CSS"],
     cms: "Vite",
     images: [sm1, sm2, sm3, sm4, sm5, sm6],
-    url: "https://cipherseeker.github.io/react-health-project//",
+    url: "https://cipherseeker.github.io/react-health-project/",
     urlgit: "https://github.com/CipherSeeker/react-health-project",
     about: (
       <>

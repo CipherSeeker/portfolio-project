@@ -1,4 +1,26 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
+const fadeOut = keyframes`
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+`;
 
 export const StyledDivOverlay = styled.div`
   position: fixed;
@@ -11,7 +33,10 @@ export const StyledDivOverlay = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 9000;
-`;
+
+  
+  animation: ${fadeIn} 0.3s ease forwards;
+  `;
 
 export const StyledDivContent = styled.div`
   background-color: #0d2438;

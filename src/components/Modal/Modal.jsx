@@ -45,9 +45,7 @@ const Modal = ({ isOpen, onClose, children }) => {
 
   return (
     <StyledDivOverlay>
-      <StyledDivContent ref={modalRef}>
-                {children}
-      </StyledDivContent>
+      <StyledDivContent ref={modalRef}>{children}</StyledDivContent>
     </StyledDivOverlay>
   );
 };

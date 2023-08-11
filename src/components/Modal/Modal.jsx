@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { StyledDivContent, StyledDivOverlay } from "./Modal.styled";
+import PropTypes from "prop-types";
 
 const Modal = ({ isOpen, onClose, children }) => {
   const modalRef = useRef();

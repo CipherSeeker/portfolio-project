@@ -13,13 +13,13 @@ const Buttons = ({url, urlgit}) => {
     <>
       <StyledDiv>
         <StyledDivCon>
-          <StyledLinkWeb href={`${url}`}>
+          <StyledLinkWeb href={`${url}`} target="_blank">
             <StyledArrow />
             VISIT THE WEBSITE
           </StyledLinkWeb>
         </StyledDivCon>
         <StyledDivCon>
-          <StyledLinkGit href={`${urlgit}`}>
+          <StyledLinkGit href={`${urlgit}`} target="_blank">
             <StyledGit />
             GitHub
           </StyledLinkGit>

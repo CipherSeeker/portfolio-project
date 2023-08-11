@@ -7,6 +7,7 @@ import {
   StyledFaReact,
   StyledFaWordpressSimple,
   StyledIoLogoJavascript,
+  StyledSiRedux,
   StyledSiStyledcomponents,
   StyledSiVite,
   StyledTFaPhp,
@@ -30,6 +31,7 @@ const Tools = ({ skills }) => {
     { name: "WordPress", icon: StyledFaWordpressSimple },
     { name: "PHP", icon: StyledTFaPhp },
     { name: "Parcel", icon: StyledBsFillBoxSeamFill },
+    { name: "Redux", icon: StyledSiRedux },
   ];
 
   const projectSkills = availableSkills.filter((skill) =>

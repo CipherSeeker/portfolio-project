@@ -40,6 +40,12 @@ import rm4 from "../assets/img/RickAndMorty/Episodes.avif";
 import rm5 from "../assets/img/RickAndMorty/Characters.avif";
 import rm6 from "../assets/img/RickAndMorty/Hero-modal.avif";
 
+import sm1 from "../assets/img/SlimMom/1-photo.avif";
+import sm2 from "../assets/img/SlimMom/2-photo.avif";
+import sm3 from "../assets/img/SlimMom/3-photo.avif";
+import sm4 from "../assets/img/SlimMom/4-photo.avif";
+import sm5 from "../assets/img/SlimMom/5-photo.avif";
+import sm6 from "../assets/img/SlimMom/6-photo.avif";
 
 export default [
   {
@@ -185,7 +191,7 @@ export default [
     id: "3",
     img: `${sc1}`,
     title: "Sweet Chest",
-    skill: ["Parcel", "JavaScript", "HTML", "CSS" ],
+    skill: ["Parcel", "JavaScript", "HTML", "CSS"],
     cms: "Parcel",
     images: [sc1, sc2, sc3, sc4, sc5, sc6, sc7],
     url: "https://cipherseeker.github.io/Sweet-Chest/",
@@ -287,7 +293,7 @@ export default [
     id: "5",
     img: `${rm1}`,
     title: "Rick and Morty",
-    skill: ["Vite", "JavaScript", "HTML", "CSS" ],
+    skill: ["Vite", "JavaScript", "HTML", "CSS"],
     cms: "Vite",
     images: [rm1, rm2, rm3, rm4, rm5, rm6],
     url: "https://cipherseeker.github.io/rickandmorty/",
@@ -345,5 +351,66 @@ export default [
       </>
     ),
   },
+  {
+    id: "5",
+    img: `${sm1}`,
+    title: "Slim Mom",
+    skill: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+    cms: "Vite",
+    images: [sm1, sm2, sm3, sm4, sm5, sm6],
+    url: "https://cipherseeker.github.io/react-health-project//",
+    urlgit: "https://github.com/CipherSeeker/react-health-project",
+    about: (
+      <>
+        <p>
+          "SlimMom" is a result of collective development efforts, reflecting
+          the prowess of our team in crafting impactful web applications. This
+          platform empowers users to manage their calorie consumption
+          effectively, facilitating their journey towards a healthier lifestyle.
+        </p>
 
+        <h3>Technical Aspects:</h3>
+
+        <h4> - Technology Stack:</h4>
+        <p>
+          Developed using React Redux for state management, HTML, CSS, Styled
+          Components and JavaScript, "SlimMom" incorporates a robust tech stack
+          to ensure seamless user experience.
+        </p>
+        <h4> - Personalized Calorie Calculation:</h4>
+        <p>
+          Users provide their details such as height, age, blood type, desired
+          weight, and current weight. The algorithm calculates their daily
+          calorie intake required to achieve their goals.
+        </p>
+        <h4> - Data Persistence: </h4>
+        <p>
+          Utilizing Redux and Redux Persist, user data, including daily calorie
+          intake, remains persistent across sessions.
+        </p>
+
+        <h4> - Mobile-First Design:</h4>
+        <p>
+          The project follows the Mobile First design principle, ensuring
+          seamless user experiences across devices.
+        </p>
+        <h4> - Modals:</h4>
+        <p>
+          A modal window appears after entering user data, displaying the
+          recommended daily calorie intake. These values dynamically update
+          based on user interactions.
+        </p>
+        <h4> - Server-Side Calculations:</h4>
+        <p>
+          All calculations occur on the server side, ensuring accuracy and
+          reliability in the provided recommendations.
+        </p>
+        <h4> - Localization and Theming:</h4>
+        <p>
+          The website offers a bilingual experience with language toggle
+          (Ukrainian and English) and supports both dark and light themes.
+        </p>
+      </>
+    ),
+  },
 ];

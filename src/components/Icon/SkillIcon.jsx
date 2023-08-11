@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { TbBrandHtml5, TbBrandTailwind } from "react-icons/tb";
 import { FaReact, FaCss3, FaWordpressSimple, FaPhp } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiStyledcomponents, SiVite } from "react-icons/si";
+import { SiStyledcomponents, SiVite, SiRedux } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BsFillBoxSeamFill } from "react-icons/bs";
 
@@ -18,6 +18,7 @@ const skillIcons = {
   WordPress: FaWordpressSimple,
   PHP: FaPhp,
   Parcel: BsFillBoxSeamFill,
+  Redux: SiRedux,
 };
 
 const StyledIcons = {};
